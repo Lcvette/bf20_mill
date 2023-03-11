@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=BF20 Mill
+Comment=BF20 Mill CNC Control Interface
+Exec=/home/py3dev/dev/bf20_mill/dev_launchers/bf20_mill_launcher.sh
+Icon=probe_basic_mill
+Path=/home/py3dev/dev
+Terminal=false
+StartupNotify=false

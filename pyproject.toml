@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0", "versioneer[toml]"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bf20_mill"
+authors = [
+  { name="James Walker", email="james.walker.nz@me.com" },
+]
+description = "BF20_mill - A QtPyVCP based Virtual Control Panel for LinuxCNC"
+readme = "README.md"
+requires-python = ">=3.7"
+dynamic = ["version"]
+
+[tool.setuptools]
+include-package-data = true
+packages = [
+	"debian",
+	"config",
+	"config.bf20_mill",
+	"config.bf20_mill.hallib",
+	"config.bf20_mill.python",
+	"config.bf20_mill.subroutines",
+	"bf20_mill",
+	"bf20_mill.fonts",
+	"bf20_mill.images",
+]
+
+[project.gui-scripts]
+bf20_mill = "bf20_mill:main"
+
+[project.entry-points."qtpyvcp.vcp"]
+bf20_mill = "bf20_mill"
+
+[project.entry-points."qtpyvcp.widgets"]
+"bf20_mill_widgets" = "widgets"
+
+[tool.versioneer]
+VCS = "git"
+style = "pep440"
+versionfile_source = "bf20_mill/_version.py"
+versionfile_build = "bf20_mill/_version.py"
+tag_prefix = ""
+parentdir_prefix = ""

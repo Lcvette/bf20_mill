@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_test:
+
+override_dh_auto_install:
+	dh_auto_install
+	
+	# Create the truetype directory if it doesn't exist
+	mkdir -p debian/python3-bf20-mill/usr/share/fonts/truetype/
+	
+	# Install the font files
+	install -m 644 bf20_mill/fonts/3270-Regular.ttf bf20_mill/fonts/BebasKai.ttf bf20_mill/fonts/Hack-Regular.ttf bf20_mill/fonts/SourceCodePro-Medium.ttf bf20_mill/fonts/SourceCodePro-Regular.ttf bf20_mill/fonts/Anonymous\ Pro.ttf debian/python3-bf20-mill/usr/share/fonts/truetype/
+

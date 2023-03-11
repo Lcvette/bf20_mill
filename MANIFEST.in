@@ -1,1 +1,7 @@
-graft *
+recursive-include bf20_mill *.yml *.yaml *.ui *.qss *.qrc *.qml *.png *.ttf
+recursive-include fonts *.ttf
+recursive-include config *.*
+
+
+include versioneer.py
+include bf20_mill/_version.py

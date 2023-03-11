@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Designer for BF20 Mill
+Comment=QTDesigner for BF20 Mill
+Exec=/home/py3dev/dev/bf20_mill/dev_launchers/bf20_mill_designer.sh
+Icon=qtpyvcp
+Path=/home/py3dev/dev
+Terminal=false
+StartupNotify=false
