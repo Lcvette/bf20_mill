@@ -34,7 +34,7 @@ bf20_mill = "bf20_mill:main"
 bf20_mill = "bf20_mill"
 
 [project.entry-points."qtpyvcp.widgets"]
-"bf20_mill_widgets" = "widgets"
+"bf20_mill_widgets" = "bf20_mill/widgets"
 
 [tool.versioneer]
 VCS = "git"
