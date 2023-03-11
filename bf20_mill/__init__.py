@@ -22,7 +22,7 @@ import os
 import qtpyvcp
 
 VCP_DIR = os.path.realpath(os.path.dirname(__file__))
-VCP_CONFIG_FILE = os.path.join(VCP_DIR, 'config.yml')
+VCP_CONFIG_FILE = os.path.join(VCP_DIR, 'bf20_mill.yml')
 
 
 def main(opts=None):

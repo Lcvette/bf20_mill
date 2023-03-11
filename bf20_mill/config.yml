@@ -55,7 +55,7 @@ windows:
   mainwindow:
     # Specify the class to use for the VCP's mainwindow
     #   Format: package.module:class
-    provider: bf20_mill.bf20_mill:BF20Mill
+    provider: bf20_mill.bf20_mill:Bf20Mill
 
     # Keyword arguments to pass when initializing the class.
     kwargs:

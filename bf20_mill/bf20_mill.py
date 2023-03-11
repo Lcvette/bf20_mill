@@ -14,10 +14,10 @@ from qtpyvcp.utilities import logger
 LOG = logger.getLogger('qtpyvcp.' + __name__)
 
 
-class MyMainWindow(VCPMainWindow):
+class Bf20Mill(VCPMainWindow):
     """Main window class for the VCP."""
     def __init__(self, *args, **kwargs):
-        super(MyMainWindow, self).__init__(*args, **kwargs)
+        super(Bf20Mill, self).__init__(*args, **kwargs)
         # setup some widgets
         self.btnPlotRollPan.clicked.connect(self.toggleRollPan)
         self.vtk.enable_panning(True)
