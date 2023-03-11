@@ -3,8 +3,8 @@ from qtpy.QtGui import QStandardItemModel
 from qtpy.QtWidgets import QTableView, QStyledItemDelegate
 
 from qtpyvcp.ops.drill_ops import DrillOps
-from .drill_widget import DrillWidgetBase
-from .float_line_edit import FloatLineEdit
+from bf20_mill.widgets.conversational.drill_widget import DrillWidgetBase
+from bf20_mill.widgets.conversational.float_line_edit import FloatLineEdit
 
 
 class XYCoordItemDelegate(QStyledItemDelegate):

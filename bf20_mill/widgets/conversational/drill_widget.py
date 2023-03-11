@@ -1,4 +1,4 @@
-from .base_widget import ConversationalBaseWidget
+from bf20_mill.widgets.conversational.base_widget import ConversationalBaseWidget
 
 
 class DrillWidgetBase(ConversationalBaseWidget):
