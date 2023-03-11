@@ -3305,7 +3305,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                            </property>
                            <property name="styleSheet">
                             <string notr="true">SubCallButton{
-    border-radius: 5px;  
+    border-radius: 5px;
 	font: 15pt &quot;Bebas Kai&quot;;
   	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
 }
@@ -13821,7 +13821,7 @@ Override</string>
   <customwidget>
    <class>FacingWidget</class>
    <extends>QWidget</extends>
-   <header>widgets.conversational.facing</header>
+   <header>bf20_mill_widgets.conversational.facing</header>
   </customwidget>
  </customwidgets>
  <resources>
