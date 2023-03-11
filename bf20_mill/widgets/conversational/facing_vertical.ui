@@ -2249,12 +2249,12 @@ color: rgb(255, 255, 255);
   <customwidget>
    <class>FloatLineEdit</class>
    <extends>VCPLineEdit</extends>
-   <header>widgets.conversational.float_line_edit</header>
+   <header>bf20_mill.widgets.conversational.float_line_edit</header>
   </customwidget>
   <customwidget>
    <class>IntLineEdit</class>
    <extends>VCPLineEdit</extends>
-   <header>widgets.int_line_edit</header>
+   <header>bf20_mill.widgets.int_line_edit</header>
   </customwidget>
  </customwidgets>
  <tabstops>

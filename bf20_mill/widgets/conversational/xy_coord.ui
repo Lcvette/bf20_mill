@@ -1830,12 +1830,12 @@ color: rgb(255, 255, 255);
   <customwidget>
    <class>IntLineEdit</class>
    <extends>VCPLineEdit</extends>
-   <header>widgets.conversational.int_line_edit</header>
+   <header>bf20_mill.widgets.conversational.int_line_edit</header>
   </customwidget>
   <customwidget>
    <class>FloatLineEdit</class>
    <extends>VCPLineEdit</extends>
-   <header>widgets.conversational.float_line_edit</header>
+   <header>bf20_mill.widgets.conversational.float_line_edit</header>
   </customwidget>
   <customwidget>
    <class>VCPLineEdit</class>
