@@ -1218,8 +1218,8 @@ QTabWidget QTabBar::tab {
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/right_side_edge.png</normaloff>../resources/images/right_side_edge.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/right_side_edge.png</normaloff>:/images/right_side_edge.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
@@ -1241,8 +1241,8 @@ QTabWidget QTabBar::tab {
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/back_right_outside_corner.png</normaloff>../resources/images/back_right_outside_corner.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/back_right_outside_corner.png</normaloff>:/images/back_right_outside_corner.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
@@ -1264,8 +1264,8 @@ QTabWidget QTabBar::tab {
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/back_left_outside_corner.png</normaloff>../resources/images/back_left_outside_corner.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/back_left_outside_corner.png</normaloff>:/images/back_left_outside_corner.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
@@ -1287,8 +1287,8 @@ QTabWidget QTabBar::tab {
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/z_top.png</normaloff>../resources/images/z_top.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/z_top.png</normaloff>:/images/z_top.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
@@ -1310,8 +1310,8 @@ QTabWidget QTabBar::tab {
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/front_left_outside_corner.png</normaloff>../resources/images/front_left_outside_corner.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/front_left_outside_corner.png</normaloff>:/images/front_left_outside_corner.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
@@ -1333,8 +1333,8 @@ QTabWidget QTabBar::tab {
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/back_middle_outside_edge.png</normaloff>../resources/images/back_middle_outside_edge.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/back_middle_outside_edge.png</normaloff>:/images/back_middle_outside_edge.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
@@ -1356,8 +1356,8 @@ QTabWidget QTabBar::tab {
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/front_middle_edge.png</normaloff>../resources/images/front_middle_edge.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/front_middle_edge.png</normaloff>:/images/front_middle_edge.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
@@ -1379,8 +1379,8 @@ QTabWidget QTabBar::tab {
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/left_side_edge.png</normaloff>../resources/images/left_side_edge.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/left_side_edge.png</normaloff>:/images/left_side_edge.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
@@ -1402,8 +1402,8 @@ QTabWidget QTabBar::tab {
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/front_right_outside_corner.png</normaloff>../resources/images/front_right_outside_corner.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/front_right_outside_corner.png</normaloff>:/images/front_right_outside_corner.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
@@ -1483,13 +1483,13 @@ HEIGHT SETTER DATA</string>
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/x_minus.png</normaloff>../resources/images/x_minus.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/x_minus.png</normaloff>:/images/x_minus.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
-                           <width>80</width>
-                           <height>80</height>
+                           <width>65</width>
+                           <height>65</height>
                           </size>
                          </property>
                          <property name="shortcut">
@@ -1509,13 +1509,13 @@ HEIGHT SETTER DATA</string>
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/inside_front_right_corner.png</normaloff>../resources/images/inside_front_right_corner.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/inside_front_right_corner.png</normaloff>:/images/inside_front_right_corner.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
-                           <width>80</width>
-                           <height>80</height>
+                           <width>65</width>
+                           <height>65</height>
                           </size>
                          </property>
                          <property name="filename" stdset="0">
@@ -1532,13 +1532,13 @@ HEIGHT SETTER DATA</string>
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/y_minus.png</normaloff>../resources/images/y_minus.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/y_minus.png</normaloff>:/images/y_minus.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
-                           <width>80</width>
-                           <height>80</height>
+                           <width>65</width>
+                           <height>65</height>
                           </size>
                          </property>
                          <property name="filename" stdset="0">
@@ -1555,13 +1555,13 @@ HEIGHT SETTER DATA</string>
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/inside_back_right_corner.png</normaloff>../resources/images/inside_back_right_corner.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/inside_back_right_corner.png</normaloff>:/images/inside_back_right_corner.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
-                           <width>80</width>
-                           <height>80</height>
+                           <width>65</width>
+                           <height>65</height>
                           </size>
                          </property>
                          <property name="filename" stdset="0">
@@ -1578,13 +1578,13 @@ HEIGHT SETTER DATA</string>
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/y_plus.png</normaloff>../resources/images/y_plus.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/y_plus.png</normaloff>:/images/y_plus.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
-                           <width>80</width>
-                           <height>80</height>
+                           <width>65</width>
+                           <height>65</height>
                           </size>
                          </property>
                          <property name="filename" stdset="0">
@@ -1601,13 +1601,13 @@ HEIGHT SETTER DATA</string>
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/x_plus.png</normaloff>../resources/images/x_plus.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/x_plus.png</normaloff>:/images/x_plus.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
-                           <width>80</width>
-                           <height>80</height>
+                           <width>65</width>
+                           <height>65</height>
                           </size>
                          </property>
                          <property name="filename" stdset="0">
@@ -1624,13 +1624,13 @@ HEIGHT SETTER DATA</string>
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/z_top.png</normaloff>../resources/images/z_top.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/z_top.png</normaloff>:/images/z_top.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
-                           <width>80</width>
-                           <height>80</height>
+                           <width>70</width>
+                           <height>70</height>
                           </size>
                          </property>
                          <property name="filename" stdset="0">
@@ -1647,13 +1647,13 @@ HEIGHT SETTER DATA</string>
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/inside_back_left_corner.png</normaloff>../resources/images/inside_back_left_corner.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/inside_back_left_corner.png</normaloff>:/images/inside_back_left_corner.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
-                           <width>80</width>
-                           <height>80</height>
+                           <width>65</width>
+                           <height>65</height>
                           </size>
                          </property>
                          <property name="filename" stdset="0">
@@ -1670,13 +1670,13 @@ HEIGHT SETTER DATA</string>
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/inside_front_left_corner.png</normaloff>../resources/images/inside_front_left_corner.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/inside_front_left_corner.png</normaloff>:/images/inside_front_left_corner.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
-                           <width>80</width>
-                           <height>80</height>
+                           <width>65</width>
+                           <height>65</height>
                           </size>
                          </property>
                          <property name="filename" stdset="0">
@@ -2008,8 +2008,8 @@ padding-left: 5px;
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/probe_cal_round_boss.png</normaloff>../resources/images/probe_cal_round_boss.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/boss_round.png</normaloff>:/images/boss_round.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
@@ -2031,8 +2031,8 @@ padding-left: 5px;
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/probe_cal_round_pocket.png</normaloff>../resources/images/probe_cal_round_pocket.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/round_pocket.png</normaloff>:/images/round_pocket.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
@@ -2057,8 +2057,8 @@ padding-left: 5px;
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/probe_cal_square_boss.png</normaloff>../resources/images/probe_cal_square_boss.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/rect_boss.png</normaloff>:/images/rect_boss.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
@@ -2083,8 +2083,8 @@ padding-left: 5px;
                           </size>
                          </property>
                          <property name="icon">
-                          <iconset>
-                           <normaloff>../resources/images/probe_cal_square_pocket.png</normaloff>../resources/images/probe_cal_square_pocket.png</iconset>
+                          <iconset resource="bf20_mill.qrc">
+                           <normaloff>:/images/rect_pocket.png</normaloff>:/images/rect_pocket.png</iconset>
                          </property>
                          <property name="iconSize">
                           <size>
@@ -2355,8 +2355,8 @@ padding-left: 5px;
                        </size>
                       </property>
                       <property name="icon">
-                       <iconset>
-                        <normaloff>../resources/images/probe_x_ridge.png</normaloff>../resources/images/probe_x_ridge.png</iconset>
+                       <iconset resource="bf20_mill.qrc">
+                        <normaloff>:/images/probe_x_ridge.png</normaloff>:/images/probe_x_ridge.png</iconset>
                       </property>
                       <property name="iconSize">
                        <size>
@@ -2384,8 +2384,8 @@ padding-left: 5px;
                        </size>
                       </property>
                       <property name="icon">
-                       <iconset>
-                        <normaloff>../resources/images/probe_y_ridge.png</normaloff>../resources/images/probe_y_ridge.png</iconset>
+                       <iconset resource="bf20_mill.qrc">
+                        <normaloff>:/images/probe_y_ridge.png</normaloff>:/images/probe_y_ridge.png</iconset>
                       </property>
                       <property name="iconSize">
                        <size>
@@ -2413,8 +2413,8 @@ padding-left: 5px;
                        </size>
                       </property>
                       <property name="icon">
-                       <iconset>
-                        <normaloff>../resources/images/probe_x_valley.png</normaloff>../resources/images/probe_x_valley.png</iconset>
+                       <iconset resource="bf20_mill.qrc">
+                        <normaloff>:/images/probe_x_valley.png</normaloff>:/images/probe_x_valley.png</iconset>
                       </property>
                       <property name="iconSize">
                        <size>
@@ -2442,8 +2442,8 @@ padding-left: 5px;
                        </size>
                       </property>
                       <property name="icon">
-                       <iconset>
-                        <normaloff>../resources/images/probe_y_valley.png</normaloff>../resources/images/probe_y_valley.png</iconset>
+                       <iconset resource="bf20_mill.qrc">
+                        <normaloff>:/images/probe_y_valley.png</normaloff>:/images/probe_y_valley.png</iconset>
                       </property>
                       <property name="iconSize">
                        <size>
@@ -2652,13 +2652,13 @@ HEIGHT SETTER DATA</string>
                             <string/>
                            </property>
                            <property name="icon">
-                            <iconset>
-                             <normaloff>../resources/images/probe_cal_round_pocket.png</normaloff>../resources/images/probe_cal_round_pocket.png</iconset>
+                            <iconset resource="bf20_mill.qrc">
+                             <normaloff>:/images/probe_cal_round_pocket.png</normaloff>:/images/probe_cal_round_pocket.png</iconset>
                            </property>
                            <property name="iconSize">
                             <size>
-                             <width>88</width>
-                             <height>88</height>
+                             <width>80</width>
+                             <height>80</height>
                             </size>
                            </property>
                            <property name="filename" stdset="0">
@@ -2693,13 +2693,13 @@ HEIGHT SETTER DATA</string>
                             <string/>
                            </property>
                            <property name="icon">
-                            <iconset>
-                             <normaloff>../resources/images/probe_cal_round_boss.png</normaloff>../resources/images/probe_cal_round_boss.png</iconset>
+                            <iconset resource="bf20_mill.qrc">
+                             <normaloff>:/images/probe_cal_round_boss.png</normaloff>:/images/probe_cal_round_boss.png</iconset>
                            </property>
                            <property name="iconSize">
                             <size>
-                             <width>88</width>
-                             <height>88</height>
+                             <width>80</width>
+                             <height>80</height>
                             </size>
                            </property>
                            <property name="autoDefault">
@@ -2891,13 +2891,13 @@ margin-left: 14px;</string>
                             <string/>
                            </property>
                            <property name="icon">
-                            <iconset>
-                             <normaloff>../resources/images/probe_cal_square_pocket.png</normaloff>../resources/images/probe_cal_square_pocket.png</iconset>
+                            <iconset resource="bf20_mill.qrc">
+                             <normaloff>:/images/probe_cal_square_pocket.png</normaloff>:/images/probe_cal_square_pocket.png</iconset>
                            </property>
                            <property name="iconSize">
                             <size>
-                             <width>88</width>
-                             <height>88</height>
+                             <width>80</width>
+                             <height>80</height>
                             </size>
                            </property>
                            <property name="filename" stdset="0">
@@ -2932,8 +2932,8 @@ margin-left: 14px;</string>
                             <string/>
                            </property>
                            <property name="icon">
-                            <iconset>
-                             <normaloff>../resources/images/probe_cal_square_boss.png</normaloff>../resources/images/probe_cal_square_boss.png</iconset>
+                            <iconset resource="bf20_mill.qrc">
+                             <normaloff>:/images/probe_cal_square_boss.png</normaloff>:/images/probe_cal_square_boss.png</iconset>
                            </property>
                            <property name="iconSize">
                             <size>
@@ -14647,13 +14647,13 @@ Override</string>
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="btngrpIncrements"/>
   <buttongroup name="btngrpG5x"/>
-  <buttongroup name="btngrpMdi"/>
-  <buttongroup name="btngrpRightNav"/>
-  <buttongroup name="btngrpMode"/>
-  <buttongroup name="btngrpContInc"/>
   <buttongroup name="btngrpLeftNav"/>
+  <buttongroup name="btngrpMode"/>
+  <buttongroup name="btngrpRightNav"/>
   <buttongroup name="btngrp_probe_wco"/>
+  <buttongroup name="btngrpIncrements"/>
+  <buttongroup name="btngrpContInc"/>
+  <buttongroup name="btngrpMdi"/>
  </buttongroups>
 </ui>
