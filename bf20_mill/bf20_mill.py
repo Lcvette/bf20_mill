@@ -6,7 +6,7 @@ from qtpyvcp.actions.coolant_actions import flood, mist
 from qtpy.QtCore import Slot
 from qtpy.QtWidgets import QAbstractButton
 ### mdi GCODE text created by JT from linuxcnc
-import bf20_mill.mdi_text as mdiText
+import .mdi_text as mdiText
 
 import bf20_mill_rc
 
@@ -28,7 +28,7 @@ class Bf20Mill(VCPMainWindow):
         self.mdi_vtk.setViewP()
         self.monitor_vtk.setViewP()
         jog.set_jog_continuous(True)
-        
+
         # signal connections
         self.btnG5xBackSpace.clicked.connect(self.btnG5xBackSpace_clicked)
         self.btnParams.clicked.connect(self.btnParams_clicked)
@@ -61,7 +61,7 @@ class Bf20Mill(VCPMainWindow):
             else:
                 self.btn_mist.setChecked(False)
                 mist.off()
-                
+
         if name == 'btn_air':
             if state:
                 self.btn_air.setChecked(True)
