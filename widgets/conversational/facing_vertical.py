@@ -1,6 +1,6 @@
 from qtpyvcp.ops.face_ops import FaceOps
 
-from bf20_mill.widgets.conversational.base_widget import ConversationalBaseWidget
+from .base_widget import ConversationalBaseWidget
 
 class FacingVerticalWidget(ConversationalBaseWidget):
     def __init__(self, parent=None):
