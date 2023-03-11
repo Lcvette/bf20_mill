@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1500</width>
-    <height>1042</height>
+    <height>1011</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -13821,11 +13821,11 @@ Override</string>
   <customwidget>
    <class>FacingWidget</class>
    <extends>QWidget</extends>
-   <header>qtpyvcp_conversational_gcode.widgets.facing</header>
+   <header>widgets.conversational.facing</header>
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../../../probe_basic/probe_basic/probe_basic.qrc"/>
+  <include location="bf20_mill.qrc"/>
  </resources>
  <connections>
   <connection>
@@ -14647,13 +14647,13 @@ Override</string>
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="btngrpMode"/>
-  <buttongroup name="btngrp_probe_wco"/>
-  <buttongroup name="btngrpRightNav"/>
-  <buttongroup name="btngrpG5x"/>
-  <buttongroup name="btngrpContInc"/>
-  <buttongroup name="btngrpMdi"/>
   <buttongroup name="btngrpIncrements"/>
+  <buttongroup name="btngrpG5x"/>
+  <buttongroup name="btngrpMdi"/>
+  <buttongroup name="btngrpRightNav"/>
+  <buttongroup name="btngrpMode"/>
+  <buttongroup name="btngrpContInc"/>
   <buttongroup name="btngrpLeftNav"/>
+  <buttongroup name="btngrp_probe_wco"/>
  </buttongroups>
 </ui>
