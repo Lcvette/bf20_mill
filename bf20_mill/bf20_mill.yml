@@ -62,7 +62,7 @@ windows:
       # Specify the mainwindow menubar as the default.
       menu: ( default_menubar )
       # Specify the UI file to load the window layout from.
-      ui_file: {{ file.dir }}/ui/mainwindow.ui
+      ui_file: {{ file.dir }}/bf20_mill.ui
       # Specify a stylesheet to use only for mainwindow.
       stylesheet: null
       # Set the window title from from the date in the vcp section above.
@@ -74,11 +74,11 @@ windows:
 application:
   kwargs:
     # Specify the application wide stylesheet.
-    stylesheet: {{ file.dir }}/ui/style.qss
+    stylesheet: {{ file.dir }}/bf20_mill.qss
     custom_fonts:
-        - {{ file.dir }}/resources/fonts/BebasKai.ttf
-        - {{ file.dir }}/resources/fonts/3270-Regular.ttf
-        - {{ file.dir }}/resources/fonts/SourceCodePro-Regular.ttf
+        - {{ file.dir }}/fonts/BebasKai.ttf
+        - {{ file.dir }}/fonts/3270-Regular.ttf
+        - {{ file.dir }}/fonts/SourceCodePro-Regular.ttf
 
 settings:
     manual-touchoff.xy-offset:
