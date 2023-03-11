@@ -2937,8 +2937,8 @@ margin-left: 14px;</string>
                            </property>
                            <property name="iconSize">
                             <size>
-                             <width>88</width>
-                             <height>88</height>
+                             <width>80</width>
+                             <height>80</height>
                             </size>
                            </property>
                            <property name="filename" stdset="0">
@@ -14649,11 +14649,11 @@ Override</string>
  <buttongroups>
   <buttongroup name="btngrpG5x"/>
   <buttongroup name="btngrpLeftNav"/>
+  <buttongroup name="btngrpContInc"/>
   <buttongroup name="btngrpMode"/>
-  <buttongroup name="btngrpRightNav"/>
   <buttongroup name="btngrp_probe_wco"/>
   <buttongroup name="btngrpIncrements"/>
-  <buttongroup name="btngrpContInc"/>
+  <buttongroup name="btngrpRightNav"/>
   <buttongroup name="btngrpMdi"/>
  </buttongroups>
 </ui>

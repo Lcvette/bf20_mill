@@ -1,6 +1,8 @@
 recursive-include bf20_mill *.yml *.yaml *.ui *.qss *.qrc *.qml *.png *.ttf
 recursive-include fonts *.ttf
 recursive-include config *.*
+recursive-include images *.png
+
 
 
 include versioneer.py

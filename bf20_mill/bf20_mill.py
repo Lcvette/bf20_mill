@@ -8,6 +8,7 @@ from qtpy.QtWidgets import QAbstractButton
 ### mdi GCODE text created by JT from linuxcnc
 import bf20_mill.mdi_text as mdiText
 
+import bf20_mill_rc
 
 # Setup logging
 from qtpyvcp.utilities import logger
