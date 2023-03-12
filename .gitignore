@@ -37,6 +37,7 @@ sim/*.old
 *settings.json
 /.project
 /.pydevproject
+/.settings
 
 /debian/files
 /debian/.pybuild/
