@@ -6,8 +6,8 @@ from qtpyvcp.actions.coolant_actions import flood, mist
 from qtpy.QtCore import Slot
 from qtpy.QtWidgets import QAbstractButton
 ### mdi GCODE text created by JT from linuxcnc
-import .mdi_text as mdiText
 
+import mdi_text as mdiText
 import bf20_mill_rc
 
 # Setup logging
